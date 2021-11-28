@@ -42,7 +42,7 @@ namespace WindowsFormsAppEasyCs104
 
             bt1.Click += new EventHandler(BtClick);
             bt2.Click += new EventHandler(BtClick);
-            this.Paint += new PaintEventHandler(FmPanit);
+            this.Paint += new PaintEventHandler(FmPaint);
         }
 
         public void BtClick(Object sender, EventArgs e)
